@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Page</title>
+</head>
+<body bgcolor="lightblue">
+    <h1>SIGN-UP PAGE</h1>
+    <!-- <p>grab your chance signup..! -->
+    </p>
+    <hr>
+    <div>
+        <form action="forms.php"><form>
+        <!-- if you put your value into lable before closing it with for-tag that will be not desplayed content e.g.<lable for="value"></lable>-->
+        <!-- and if you put the value into between the lable it will be displayed to the screen e.g. <lable>value</lable>-->
+        <label>First-Name:</label><br>
+        <input type="text" name="First-Name" placeholder="First-Name"><br>
+        <label>Middle-Name:</label><br>
+        <input type="text" name="Middle-Name" placeholder="Middle-Name">
+        <br>
+        <label>Last-Name:</label><br>
+        <input type="text" name="Last-Name" placeholder="Last-Name"><br>
+        <label>Email-ID:</label><br>
+        <input type="text" placeholder="Email-ID"><br>
+        <label>Password:</label><br>
+        <input type="text" placeholder="Password- 8digit"><br>
+        <label>Confirm-Password:</label><br>
+        <input type="text" placeholder="Confirm Password"><br>
+        <br>
+        <label for="Gender">Gender:<br>
+        <input type="radio" value="Male" name="Gender" id="male"/>Male
+        <input type="radio" value="Female" name="Gender" id="female"/>Female
+        <input type="radio" value="Other" name="Gender" id="Other"/>Other
+    </lable>
+    <br>
+    <br>
+    <lable>Address:</lable><br>
+    <textarea name="Address" id="Address" cols="20" rows="3" placeholder="Type your address"></textarea>
+    <br>
+    <br>
+    <lable for="phone">Phone-Number</lable><br>
+    <select name="country code" id="country code">Country-Code
+        <option value="Omni1">India-91</option>
+        <option value="Omni2">Us-90</option>
+        <option value="Omni2">Canada-0008</option>
+    <input type="tel" name="phone" id="phone" pattern="[0-9]{10}" maxlength="10" placeholder="012-456-4558"/>
+    <br>
+    <br>
+    <label>Submit:</label>
+        <button type="button" type="Submit">Submit</button>
+    </div>
+    </body>
+    </html>
